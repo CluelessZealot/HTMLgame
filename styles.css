@@ -1,0 +1,132 @@
+
+.dataBox{
+    
+    outline-width: 5px;
+    outline-color: black;
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100rem 45rem;
+}
+
+.mainTab{
+    
+    outline-width: 5px;
+    outline-color: black;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+} 
+
+.diceBox{
+    width: 150px;
+    border: 10px solid white;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+.grade{
+    width: 150px;
+    border: 10px solid white;
+    padding: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.Player-turn{
+    width: 80px;
+    border: 10px solid white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 30px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.moveAmount{
+    width: 150px;
+    border: 10px solid white;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    height: 200px;
+}
+
+#moveNum{
+    font-size: x-large;
+}
+
+.cards{
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+    right: 10px;
+    top: 295px;
+    color: white;
+    font-size: large;
+}
+
+.player2Grades{
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 10px;
+    top: 450px;
+}
+
+.player1Grades{
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 10px;
+    top: 320px;
+    
+}
+
+#playerTurn{
+    font-size: x-large;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+

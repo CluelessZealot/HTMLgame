@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "styles.css" rel = "stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class = "Player-turn" id = "playerTurn">Player turn</div>
+
+    <div class = "grade" id ="gradeBox"><img src="gradebook.jpg" alt="canvas" id="gradebook"><p id = "gradeLable">Your grade is: </p>
+        <p id = "currentGrade"></p></div>
+
+    <div class = "cards">Card
+        <p id="context"></p>
+        <p id="movesContext"></p>
+        <p id="moves"></p>
+    </div>
+
+    <div class="player1Grades">player 1 grades<p id ="player1Grades"></p></div>
+    <div class="player2Grades">player 2 grades <p id ="player2Grades"></p></div>
+
+    <table class ="mainTab">
+        <tr class = "row">
+            <td id = "16" class = "dataBox">CIS 260</td>
+            <td id = "15" class = "dataBox">CIS 240</td>
+            <td id = "14" class = "dataBox">CIS 235</td>
+            <td id = "13" class = "dataBox">CIS 230</td>
+        </tr>
+            
+        <tr class = "row">
+            <td id = "9" class = "dataBox">CIS 170</td>
+            <td id = "10" class = "dataBox">CIS 171</td>
+            <td id = "11" class = "dataBox">CIS 201</td>
+            <td id = "12" class = "dataBox">CIS 220</td>
+        </tr>
+
+        <tr class = "row">
+            <td id = "8" class = "dataBox">CIS 151</td>
+            <td id = "7" class = "dataBox">CIS 150</td>
+            <td id = "6" class = "dataBox">CIS 131</td>
+            <td id = "5" class = "dataBox">CIS 130</td>
+        </tr>
+
+        <tr class = "row">
+            <td id ="1" class = "dataBox">CIS 100<img src="player1.png" id = "player1" class = "player" alt="player 1">
+                <img src="player2.png" id = "player2" class = "player" alt="player 2"></td>
+            <td id = "2" class = "dataBox">CIS 101</td>
+            <td id = "3" class = "dataBox">CIS 120</td>
+            <td id = "4" class = "dataBox">CIS 125</td>
+        </tr>
+    </table>
+
+    <div class = "moveAmount">move amount <p id="moveNum"></p></div>
+
+    <div class = "diceBox"><img class = "diePic" id="die" src="die.png" alt="die"></div>
+    <script src="script.js"></script>
+</body>
+</html>
